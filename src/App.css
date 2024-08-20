@@ -1,0 +1,67 @@
+:root {
+  --black: #000000;
+  --dark-blue: #14213d;
+  --orange: #fca311;
+  --light-gray: #e5e5e5;
+  --white: #ffffff;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--light-gray);
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--dark-blue);
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: var(--white);
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-list li a {
+  color: var(--white);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-list li a:hover {
+  color: var(--orange);
+}
+
+/* Section Styles */
+.section {
+  padding: 100px 20px;
+}
+
+.home-section {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.about-section, .services-section, .blog-section, .contact-section {
+  background-color: var(--light-gray);
+  color: var(--dark-blue);
+}
+
+.footer {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 20px;
+  text-align: center;
+}

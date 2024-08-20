@@ -1,0 +1,21 @@
+/* src/pages/PageLayout.css */
+.page-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100vh;
+    padding: 2rem;
+  }
+  
+  .content {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .models-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px); /* Each model will be in a 300px square */
+    grid-gap: 10px;
+    justify-content: flex-end;
+  }
+  

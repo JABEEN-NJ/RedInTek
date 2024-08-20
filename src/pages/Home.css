@@ -1,0 +1,80 @@
+/* src/pages/Home.css */
+.page-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem;
+  background-color: rgba(189, 172, 189, 0.333); /* Light background for contrast */
+  height: 100vh;
+}
+
+.content {
+  flex: 2;
+  padding-right: 2rem;
+}
+
+.right-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-image {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: lighter;
+  color: black;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: black;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+ul li {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

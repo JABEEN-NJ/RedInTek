@@ -1,0 +1,133 @@
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.contact-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.contact-content {
+  max-width: 800px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-content h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.contact-content p {
+  font-size: 1em;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.contact-content a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-content a:hover {
+  text-decoration: underline;
+}
+
+/* 3D Model */
+.contact-model {
+  width: 100%;
+  max-width: 800px;
+  height: 400px;
+  margin-top: 20px;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #000; /* Adjust the background color as needed */
+  color: #fff;
+  padding: 10px 0; /* Reduced padding */
+  text-align: center;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center everything vertically */
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column; /* Stack the items vertically */
+  align-items: center; /* Center align horizontally */
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 10px 0; /* Reduced padding */
+  box-sizing: border-box;
+}
+
+.footer-info {
+  text-align: center; /* Center the text */
+  padding: 0 20px;
+  margin-bottom: 10px; /* Reduced space below this section */
+}
+
+.footer-info h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.footer-info p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.footer-links, .footer-social {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align horizontally */
+  padding: 0 20px;
+}
+
+.footer-links a, .footer-social a {
+  color: #fff;
+  margin: 5px 0;
+  text-decoration: none;
+  text-align: center; /* Center the text */
+  font-size: 14px;
+}
+
+.footer-links a:hover, .footer-social a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  margin-top: 10px; /* Reduced space at the top */
+  border-top: 1px solid #333;
+  padding-top: 5px; /* Reduced padding */
+  width: 100%;
+  text-align: center; /* Center the footer-bottom content */
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+  color: #aaa;
+}

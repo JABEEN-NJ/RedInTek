@@ -1,0 +1,52 @@
+:root {
+  --black: #000000;
+  --dark-blue: #14213d;
+  --orange: #fca311;
+  --light-gray: #e5e5e5;
+  --white: #ffffff;
+}
+
+.services-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px; /* Adjusted padding to bring content up */
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.services-content {
+  text-align: center;
+  max-width: 800px;
+}
+
+.services-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.services-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.services-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.services-content ul li {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.services-content ul li strong {
+  color: var(--dark-blue);
+}
+
+.model-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px; /* Adjust margin to position the model nicely */
+}

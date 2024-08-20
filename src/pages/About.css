@@ -1,0 +1,29 @@
+.about-container {
+  position: relative;      /* Set the container to relative so the image can be positioned absolutely within it */
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-image {
+  position: absolute;      /* Position the image absolutely within the container */
+  top: 200px;                  /* Align the image with the top of the container */
+  right: 0;                /* Fix the image to the right side of the container */
+  margin-right: 20px;      /* Add some spacing from the right edge */
+}
+
+.about-image img {
+  width: 100px;
+  height: auto;
+}
+
+.about-content {
+  margin-top: 100px;
+  width: 60%;              /* Set width to take up 60% of the container */
+}
+
+.model-viewer-container {
+  margin-top: 40px;
+  height: 500px;
+  border: 1px solid #ddd;
+}
